@@ -1,0 +1,19 @@
+.project-container {
+  width: 100%;
+  height: auto;
+  padding: 2rem 0;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+p {
+  font-size: 17px;
+}
+
+button {
+  padding: 10px 15px;
+  width: auto;
+  margin: 1rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+}
