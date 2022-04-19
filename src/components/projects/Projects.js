@@ -8,7 +8,7 @@ const Projects = () => {
     <section className="all-projects">
       <div className="projects">
         {PROJECT_DETAILS.map((data) => (
-          <>
+          <React.Fragment key={data.id}>
             <div className="cards_item">
               <div className="card">
                 <div className="card_image">
@@ -38,7 +38,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </>
+          </React.Fragment>
         ))}
       </div>
     </section>
