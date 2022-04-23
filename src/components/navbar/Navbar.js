@@ -21,12 +21,16 @@ const Navbar = () => {
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link to="/" className="nav-links">
+            <Link to="/" onClick={() => setClick(!click)} className="nav-links">
               Home
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/projects" className="nav-links">
+            <Link
+              to="/projects"
+              onClick={() => setClick(!click)}
+              className="nav-links"
+            >
               Projects
             </Link>
           </li>
