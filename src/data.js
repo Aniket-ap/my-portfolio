@@ -2,6 +2,7 @@ import portfolioImg from "./assets/image/portfolio-ss.jpg"
 import blogHashImg from "./assets/image/bloghash-ss.jpg"
 import imdbImg from "./assets/image/imdb-ss.jpg"
 import ticTacToeImg from "./assets/image/tic-tac-ss.jpg"
+import githubSearchImg from "./assets/image/github-search.jpg"
 
 export const PROJECT_DETAILS = [
   {
@@ -22,6 +23,14 @@ export const PROJECT_DETAILS = [
   },
   {
     id: 3,
+    title: "Github Search",
+    description: "A github profile search app",
+    pic: githubSearchImg,
+    viewLink: "https://github-search-profile-app.netlify.app/",
+    sourceCode: "https://gitlab.com/Aniket-ap/github-search-app",
+  },
+  {
+    id: 4,
     title: "IMDB Clone",
     description: "A clone of popular movie review website IMDB using React Js.",
     pic: imdbImg,
@@ -29,7 +38,7 @@ export const PROJECT_DETAILS = [
     sourceCode: "https://github.com/Aniket-ap/imdb-clone",
   },
   {
-    id: 4,
+    id: 5,
     title: "TIC TAC TOE",
     description: "A simple tic tac toe game made using pure HTML, CSS3, JS.",
     pic: ticTacToeImg,
