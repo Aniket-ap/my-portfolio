@@ -1,6 +1,6 @@
 .all-projects {
   width: 100%;
-  height: auto;
+  /* height: auto; */
   /* background-color: whitesmoke; */
   margin: 1.5rem 0;
   overflow: hidden;
@@ -10,7 +10,7 @@
   padding: 0 1rem;
   margin: auto;
   display: flex;
-  /* justify-content: space-be; */
+  align-items: stretch;
   flex-wrap: wrap;
 }
 

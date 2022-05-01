@@ -3,6 +3,7 @@ import blogHashImg from "./assets/image/bloghash-ss.jpg"
 import imdbImg from "./assets/image/imdb-ss.jpg"
 import ticTacToeImg from "./assets/image/tic-tac-ss.jpg"
 import githubSearchImg from "./assets/image/github-search.jpg"
+import spaceX from "./assets/image/spaceX.jpg"
 
 export const PROJECT_DETAILS = [
   {
@@ -39,6 +40,14 @@ export const PROJECT_DETAILS = [
   },
   {
     id: 5,
+    title: "SpaceX launch data",
+    description: "An application having all the details of all spacex rocket launch data.",
+    pic: spaceX,
+    viewLink: "https://launch-spacex-data.netlify.app/",
+    sourceCode: "https://github.com/Aniket-ap/techdome-assignment",
+  },
+  {
+    id: 6,
     title: "TIC TAC TOE",
     description: "A simple tic tac toe game made using pure HTML, CSS3, JS.",
     pic: ticTacToeImg,
