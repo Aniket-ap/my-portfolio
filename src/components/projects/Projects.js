@@ -2,6 +2,7 @@ import React from "react";
 import "./projects.css";
 import { PROJECT_DETAILS } from "../../data";
 import { Link } from "react-router-dom";
+import githubSearchImg from "../../assets/image/bloghash-ss.jpg";
 
 const Projects = () => {
   return (
@@ -9,33 +10,27 @@ const Projects = () => {
       <div className="projects">
         {PROJECT_DETAILS.map((data) => (
           <React.Fragment key={data.id}>
-            <div className="cards_item">
-              <div className="card">
-                <div className="card_image">
-                  <img src={data.pic} alt="project pic" />
-                </div>
-                <div className="card_content">
-                  <h2 className="card_title">{data.title}</h2>
-                  <p className="card_text">{data.description}</p>
-                  <div className="btn">
-                    <button>
-                      <Link
-                        to="#"
-                        onClick={() => (window.location = `${data.viewLink}`)}
-                      >
-                        View
-                      </Link>
-                    </button>
-                    <button>
-                      <Link
-                        to="#"
-                        onClick={() => (window.location = `${data.sourceCode}`)}
-                      >
-                        sourceCode
-                      </Link>
-                    </button>
-                  </div>
-                </div>
+            <div className="project__card">
+              <div className="card__img">
+                <img src={data.pic} alt="" />
+              </div>
+
+              <div className="card__data">
+                <Link
+                  className="link"
+                  to="#"
+                  onClick={() => (window.location = `${data.viewLink}`)}
+                >
+                  View &#62;
+                </Link>
+
+                <Link
+                  className="link"
+                  to="#"
+                  onClick={() => (window.location = `${data.sourceCode}`)}
+                >
+                  source code &#62;
+                </Link>
               </div>
             </div>
           </React.Fragment>
