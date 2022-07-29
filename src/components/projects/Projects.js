@@ -2,7 +2,6 @@ import React from "react";
 import "./projects.css";
 import { PROJECT_DETAILS } from "../../data";
 import { Link } from "react-router-dom";
-import githubSearchImg from "../../assets/image/bloghash-ss.jpg";
 
 const Projects = () => {
   return (
@@ -21,7 +20,7 @@ const Projects = () => {
                   to="#"
                   onClick={() => (window.location = `${data.viewLink}`)}
                 >
-                  View &#62;
+                  Live project
                 </Link>
 
                 <Link
@@ -29,7 +28,7 @@ const Projects = () => {
                   to="#"
                   onClick={() => (window.location = `${data.sourceCode}`)}
                 >
-                  source code &#62;
+                  Source code
                 </Link>
               </div>
             </div>
