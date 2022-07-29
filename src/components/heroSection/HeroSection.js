@@ -14,7 +14,7 @@ const HeroSection = () => {
         <div className="content">
           <div className="col-1">
             <span className="my-name">i'm Aniket</span>
-            <p>a front-end developer.</p>
+            <p>aspiring fullstack developer.</p>
             <div className="icons">
               <Link
                 to="#"
