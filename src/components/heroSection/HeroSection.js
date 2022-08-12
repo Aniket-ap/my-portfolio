@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div className="container">
         <div className="content">
           <div className="col-1">
-            <span className="my-name">i'm Aniket</span>
+            <span className="my-name">Hi, I’m <span>Aniket Pradhan</span> </span>
             <p>aspiring fullstack developer.</p>
             <div className="icons">
               <Link
