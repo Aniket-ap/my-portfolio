@@ -24,16 +24,23 @@
 }
 
 .hero .col-1 .my-name {
-  font-family: "Sacramento", cursive;
-  font-size: 100px;
+  font-size: 50px;
   font-weight: 600;
   color: #fff;
+  margin-bottom: 20px;
+}
+
+.my-name span{
+  /* font-family: "Sacramento", cursive; */
+  color: var(--primary);
+  /* font-size: 40px; */
 }
 
 .hero .col-1 p {
-  font-size: 1.5rem;
-  color: var(--grey);
+  font-size: 2rem;
+  color: #fff;
   line-height: 1.4;
+  margin-bottom: 10px;
 }
 
 .hero .col-1 .icons {
@@ -87,7 +94,7 @@
   }
 
   .hero .col-1 .my-name {
-    font-size: 100px;
+    font-size: 50px;
   }
 
   .hero .col-2 {
@@ -97,9 +104,9 @@
 
 @media screen and (max-width: 500px) {
   .hero .col-1 .my-name {
-    font-size: 60px;
+    font-size: 35px;
   }
   .hero .col-1 p {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
