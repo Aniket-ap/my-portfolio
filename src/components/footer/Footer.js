@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <span>&#169; 2022 My Portfolio.</span>
         <span>
-          Made with ❤ by <span className="footer-name">Aniket Pradhan</span>.
+          Made with <span style={{color: "red"}}>❤</span>  by <span className="footer-name">Aniket Pradhan</span>.
         </span>
       </div>
     </footer>
