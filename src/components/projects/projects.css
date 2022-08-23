@@ -6,40 +6,115 @@
   overflow: hidden;
 }
 
-.projects {
+.grid1{
+  margin: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.grid1 > article{
+  background-color: #eee5e9;
+  border: none;
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+  border-radius: 20px;
+  text-align: center;
+  width: 450px;
+  transition: transform .3s;
+}
+
+.grid1 > article:hover{
+  transform: translateY(5px);
+  box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+}
+
+.grid1 > article img{
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.text{
+  padding: 20px;
+}
+
+.text h3{
+  text-transform: uppercase;
+}
+
+.pro-lnk{
+  background-color: #6948ff;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-right: 2px;
+}
+
+.pro-lnk:hover{
+  background-color: #553bcb;
+}
+
+@media (max-width: 768px) {
+  .grid1{
+    /* grid-template-columns: repeat(2, 1fr); */
+  }
+}
+
+@media (max-width: 500px) {
+  .grid1{
+    margin: 20px auto;
+  }
+
+  .grid1 > article{
+    text-align: center;
+  }
+
+  .pro-lnk{
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* .projects {
   padding: 0 1rem;
   margin: auto;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-}
+} */
 
-.project__card{
+/* .project__card{
   width: 400px;
   border-radius: 5px;
   margin: 10px 0;
   box-shadow: 0 10px 10px -5px;
-}
+} */
 
-.card__img{
+/* .card__img{
   padding: 30px;
-  /* background-color: #ededed; */
-}
+  background-color: #ededed;
+} */
 
-.card__img img{
+/* .card__img img{
   object-fit: contain;
   width: 100%;
-}
+} */
 
-.card__data{
+/* .card__data{
   padding: 20px 0;
   line-height: 35px;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   margin-left: 20px;
-}
+} */
 
-.card__data .link{
+/* .card__data .link{
   color: #fff;
 }
 
@@ -53,4 +128,4 @@
 
 .link:hover{
   background-color: #6145de;
-}
+} */
