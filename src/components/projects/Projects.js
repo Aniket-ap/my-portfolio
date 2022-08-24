@@ -11,6 +11,10 @@ const Projects = () => {
           <React.Fragment key={data.id}>
             <article>
               <img src={data.pic} alt="img" />
+              <div className="pill-btns">
+                <button class="pill-button">{data.tag[0]}</button>
+                <button class="pill-button">{data.tag[1]}</button>
+              </div>
               <div className="text">
                 {/* <h3>CARD 1</h3> */}
                 <Link
