@@ -14,6 +14,56 @@ const Project = () => {
         {/* Project show in main page */}
         <div className="project-cards-section">
           <main className="grid">
+          <article>
+              <img src={PROJECT_DETAILS[16].pic} alt="img" />
+              <div className="text">
+                {/* <h3>CARD 1</h3> */}
+                <Link
+                  className="pro-lnk"
+                  to="#"
+                  onClick={() =>
+                    (window.location = `${PROJECT_DETAILS[10].viewLink}`)
+                  }
+                >
+                  Live project
+                </Link>
+
+                <Link
+                  className="pro-lnk"
+                  to="#"
+                  onClick={() =>
+                    (window.location = `${PROJECT_DETAILS[10].sourceCode}`)
+                  }
+                >
+                  Source code
+                </Link>
+              </div>
+            </article>
+            <article>
+              <img src={PROJECT_DETAILS[15].pic} alt="img" />
+              <div className="text">
+                {/* <h3>CARD 1</h3> */}
+                <Link
+                  className="pro-lnk"
+                  to="#"
+                  onClick={() =>
+                    (window.location = `${PROJECT_DETAILS[11].viewLink}`)
+                  }
+                >
+                  Live project
+                </Link>
+
+                <Link
+                  className="pro-lnk"
+                  to="#"
+                  onClick={() =>
+                    (window.location = `${PROJECT_DETAILS[11].sourceCode}`)
+                  }
+                >
+                  Source code
+                </Link>
+              </div>
+            </article>
             <article>
               <img src={PROJECT_DETAILS[9].pic} alt="img" />
               <div className="text">
@@ -40,31 +90,6 @@ const Project = () => {
               </div>
             </article>
             <article>
-              <img src={PROJECT_DETAILS[10].pic} alt="img" />
-              <div className="text">
-                {/* <h3>CARD 1</h3> */}
-                <Link
-                  className="pro-lnk"
-                  to="#"
-                  onClick={() =>
-                    (window.location = `${PROJECT_DETAILS[10].viewLink}`)
-                  }
-                >
-                  Live project
-                </Link>
-
-                <Link
-                  className="pro-lnk"
-                  to="#"
-                  onClick={() =>
-                    (window.location = `${PROJECT_DETAILS[10].sourceCode}`)
-                  }
-                >
-                  Source code
-                </Link>
-              </div>
-            </article>
-            <article>
               <img src={PROJECT_DETAILS[14].pic} alt="img" />
               <div className="text">
                 {/* <h3>CARD 1</h3> */}
@@ -83,31 +108,6 @@ const Project = () => {
                   to="#"
                   onClick={() =>
                     (window.location = `${PROJECT_DETAILS[14].sourceCode}`)
-                  }
-                >
-                  Source code
-                </Link>
-              </div>
-            </article>
-            <article>
-              <img src={PROJECT_DETAILS[11].pic} alt="img" />
-              <div className="text">
-                {/* <h3>CARD 1</h3> */}
-                <Link
-                  className="pro-lnk"
-                  to="#"
-                  onClick={() =>
-                    (window.location = `${PROJECT_DETAILS[11].viewLink}`)
-                  }
-                >
-                  Live project
-                </Link>
-
-                <Link
-                  className="pro-lnk"
-                  to="#"
-                  onClick={() =>
-                    (window.location = `${PROJECT_DETAILS[11].sourceCode}`)
                   }
                 >
                   Source code
