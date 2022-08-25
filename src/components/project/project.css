@@ -52,21 +52,20 @@ p {
   text-transform: uppercase;
 }
 
-.pro-lnk{
+/* .pro-lnk{
   background-color: #6948ff;
   border-radius: 20px;
   border: none;
   color: #fff;
   padding: 10px;
   width: 100%;
-  /* font-weight: 600; */
   text-transform: uppercase;
   cursor: pointer;
 }
 
 .pro-lnk:hover{
   background-color: #553bcb;;
-}
+} */
 
 button {
   padding: 10px 15px;
@@ -76,11 +75,6 @@ button {
   justify-content: center;
 }
 
-@media (max-width: 768px) {
-  .grid{
-    /* grid-template-columns: repeat(2, 1fr); */
-  }
-}
 
 @media (max-width: 500px) {
   .grid{
@@ -91,9 +85,5 @@ button {
     text-align: center;
   }
 
-  .pro-lnk{
-    display: block;
-    margin-bottom: 10px;
-  }
 }
 
