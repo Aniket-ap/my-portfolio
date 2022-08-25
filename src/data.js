@@ -26,7 +26,7 @@ import paytm from "./assets/image/paytm-clone-ss.jpg"
 export const PROJECT_DETAILS = [
   {
     id: 1,
-    title: "Project 1",
+    title: "Whats Trend in 2025 ?",
     description: "Project 1",
     pic: htmlP1,
     tag: ["HTML", "CSS"],
@@ -35,7 +35,7 @@ export const PROJECT_DETAILS = [
   },
   {
     id: 2,
-    title: "Project 2",
+    title: "Restrurant Website",
     description: "Project 2",
     pic: htmlP2,
     tag: ["HTML", "CSS"],
@@ -44,7 +44,7 @@ export const PROJECT_DETAILS = [
   },
   {
     id: 3,
-    title: "Project 3",
+    title: "Lawfirm Website",
     description: "Project 3",
     pic: htmlP3,
     tag: ["HTML", "CSS"],
@@ -53,7 +53,7 @@ export const PROJECT_DETAILS = [
   },
   {
     id: 4,
-    title: "Project 4",
+    title: "Marketing Agency",
     description: "Project 4",
     pic: htmlP4,
     tag: ["HTML", "CSS"],
@@ -62,7 +62,7 @@ export const PROJECT_DETAILS = [
   },
   {
     id: 5,
-    title: "Project 5",
+    title: "Crypto Landing Page",
     description: "Project 5",
     pic: htmlP5,
     tag: ["HTML", "CSS"],
@@ -71,7 +71,7 @@ export const PROJECT_DETAILS = [
   },
   {
     id: 6,
-    title: "Project 6",
+    title: "Monstera",
     description: "Project 6",
     pic: htmlP6,
     tag: ["HTML", "CSS"],
@@ -80,7 +80,7 @@ export const PROJECT_DETAILS = [
   },
   {
     id: 7,
-    title: "Project 7",
+    title: "Product",
     description: "Project 7",
     pic: htmlP7,
     tag: ["HTML", "CSS"],
@@ -89,7 +89,7 @@ export const PROJECT_DETAILS = [
   },
   {
     id: 8,
-    title: "Project 8",
+    title: "Design",
     description: "Project 8",
     pic: htmlP8,
     tag: ["HTML", "CSS"],
@@ -98,7 +98,7 @@ export const PROJECT_DETAILS = [
   },
   {
     id: 9,
-    title: "Project 9",
+    title: "Business Website",
     description: "Project 9",
     pic: htmlP9,
     tag: ["HTML", "CSS"],
@@ -107,7 +107,7 @@ export const PROJECT_DETAILS = [
   },
   {
     id: 10,
-    title: "Project 10",
+    title: "Interior Design",
     description: "Project 10",
     pic: htmlP10,
     tag: ["HTML", "CSS"],
@@ -116,7 +116,7 @@ export const PROJECT_DETAILS = [
   },
   {
     id: 11,
-    title: "Project 11",
+    title: "Hosting Website",
     description: "Project 11",
     pic: htmlP11,
     tag: ["HTML", "CSS"],
@@ -125,7 +125,7 @@ export const PROJECT_DETAILS = [
   },
   {
     id: 12,
-    title: "Project 12",
+    title: "Digital Marketing",
     description: "Project 12",
     pic: htmlP12,
     tag: ["HTML", "CSS"],
@@ -134,7 +134,7 @@ export const PROJECT_DETAILS = [
   },
   {
     id: 13,
-    title: "Project 13",
+    title: "SAAS",
     description: "Project 13",
     pic: htmlP13,
     tag: ["HTML", "CSS"],
@@ -143,7 +143,7 @@ export const PROJECT_DETAILS = [
   },
   {
     id: 14,
-    title: "Project 14",
+    title: "Creativity",
     description: "Project 14",
     pic: htmlP14,
     tag: ["HTML", "CSS"],
@@ -152,7 +152,7 @@ export const PROJECT_DETAILS = [
   },
   {
     id: 15,
-    title: "Project 15",
+    title: "Designer Portfolio",
     description: "Project 15",
     pic: htmlP15,
     tag: ["HTML", "CSS"],
