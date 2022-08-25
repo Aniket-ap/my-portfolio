@@ -15,6 +15,10 @@ const Projects = () => {
                 <button class="pill-button">{data.tag[0]}</button>
                 <button class="pill-button">{data.tag[1]}</button>
               </div>
+              <div className="proj-title">
+                <h1>{data?.title}</h1>
+                {/* <p>{data?.description}</p> */}
+              </div>
               <div className="text">
                 {/* <h3>CARD 1</h3> */}
                 <Link

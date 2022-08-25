@@ -46,8 +46,8 @@
   pointer-events: none;
   background-color: #EFF4FF;
   border: none;
-  color: #553bcb;
-  padding: 5px 9px;
+  color: #6a4deb;
+  padding: 5px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -56,6 +56,12 @@
   margin-bottom: 10px;
   border-radius: 100px;
   font-size: 12px;
+  text-transform: uppercase;
+}
+
+.proj-title h1{
+  margin: 10px 0 0 0;
+  color: #7151ff;
 }
 
 .text h3{
@@ -67,21 +73,16 @@
   border-radius: 20px;
   border: none;
   color: #fff;
-  padding: 10px;
+  padding: 6px 12px;
   width: 100%;
   text-transform: uppercase;
   cursor: pointer;
   margin-right: 2px;
+  font-size: 12px;
 }
 
 .pro-lnk:hover{
   background-color: #553bcb;
-}
-
-@media (max-width: 768px) {
-  .grid1{
-    /* grid-template-columns: repeat(2, 1fr); */
-  }
 }
 
 @media (max-width: 500px) {
@@ -92,58 +93,14 @@
   .grid1 > article{
     text-align: center;
   }
+}
+
+@media (max-width: 300px) {
 
   .pro-lnk{
     display: block;
     margin-bottom: 10px;
+    padding: 5px 8px;
+    font-size: 12px;
   }
 }
-
-/* .projects {
-  padding: 0 1rem;
-  margin: auto;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-} */
-
-/* .project__card{
-  width: 400px;
-  border-radius: 5px;
-  margin: 10px 0;
-  box-shadow: 0 10px 10px -5px;
-} */
-
-/* .card__img{
-  padding: 30px;
-  background-color: #ededed;
-} */
-
-/* .card__img img{
-  object-fit: contain;
-  width: 100%;
-} */
-
-/* .card__data{
-  padding: 20px 0;
-  line-height: 35px;
-  display: flex;
-  justify-content: center;
-  margin-left: 20px;
-} */
-
-/* .card__data .link{
-  color: #fff;
-}
-
-.link{
-  padding: 5px 10px;
-  background-color: #6948FF;
-  border-radius: 5px;
-  font-size: 15px;
-  margin: 0 10px;
-}
-
-.link:hover{
-  background-color: #6145de;
-} */
