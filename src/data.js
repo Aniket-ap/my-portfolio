@@ -1,27 +1,21 @@
-// import portfolioImg from "./assets/image/portfolio-ss.jpg"
-// import blogHashImg from "./assets/image/bloghash-ss.jpg"
-// import imdbImg from "./assets/image/imdb-ss.jpg"
-// import ticTacToeImg from "./assets/image/tic-tac-ss.jpg"
-// import githubSearchImg from "./assets/image/github-search.jpg"
-// import spaceX from "./assets/image/spaceX.jpg"
-import htmlP1 from "./assets/image/html-p1.jpg"
-import htmlP2 from "./assets/image/html-p2.jpg"
-import htmlP3 from "./assets/image/html-p3.jpg"
-import htmlP4 from "./assets/image/html-p4.jpg"
-import htmlP5 from "./assets/image/html-p5.jpg"
-import htmlP6 from "./assets/image/html-p6.jpg"
-import htmlP7 from "./assets/image/html-p7.jpg"
-import htmlP8 from "./assets/image/html-p8.jpg"
-import htmlP9 from "./assets/image/html-p9.jpg"
-import htmlP10 from "./assets/image/html-p10.jpg"
-import htmlP11 from "./assets/image/html-p11.jpg"
-import htmlP12 from "./assets/image/html-p12.jpg"
-import htmlP13 from "./assets/image/html-p13.jpg"
-import htmlP14 from "./assets/image/html-p14.jpg"
-import htmlP15 from "./assets/image/html-p15.jpg"
-import shopify from "./assets/image/shopify-clone-ss.jpg"
-import rode from "./assets/image/rode-clone-ss.jpg"
-import paytm from "./assets/image/paytm-clone-ss.jpg"
+import htmlP1 from "./assets/image/html-p1.jpg";
+import htmlP2 from "./assets/image/html-p2.jpg";
+import htmlP3 from "./assets/image/html-p3.jpg";
+import htmlP4 from "./assets/image/html-p4.jpg";
+import htmlP5 from "./assets/image/html-p5.jpg";
+import htmlP6 from "./assets/image/html-p6.jpg";
+import htmlP7 from "./assets/image/html-p7.jpg";
+import htmlP8 from "./assets/image/html-p8.jpg";
+import htmlP9 from "./assets/image/html-p9.jpg";
+import htmlP10 from "./assets/image/html-p10.jpg";
+import htmlP11 from "./assets/image/html-p11.jpg";
+import htmlP12 from "./assets/image/html-p12.jpg";
+import htmlP13 from "./assets/image/html-p13.jpg";
+import htmlP14 from "./assets/image/html-p14.jpg";
+import htmlP15 from "./assets/image/html-p15.jpg";
+import shopify from "./assets/image/shopify-clone-ss.jpg";
+import rode from "./assets/image/rode-clone-ss.jpg";
+import paytm from "./assets/image/paytm-clone-ss.jpg";
 
 export const PROJECT_DETAILS = [
   {
